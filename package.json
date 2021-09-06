@@ -1,0 +1,24 @@
+{
+  "name": "airconsole-cli",
+  "version": "1.0.0",
+  "description": "Airline booking CLI App",
+  "bin": {
+    "air": "./bin/index.js"
+  },
+  "author": "David J Forer",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "chalk-pipe": "^5.1.1",
+    "clear": "^0.1.0",
+    "colors": "^1.4.0",
+    "commander": "^8.1.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.1.2",
+    "open": "^8.2.1",
+    "pad": "^3.2.0",
+    "prompt-sync": "^4.2.0",
+    "readline": "^1.3.0",
+    "yargs": "^17.1.1"
+  }
+}
