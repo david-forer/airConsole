@@ -3,10 +3,10 @@ const figlet = require('figlet')
 
 
 module.exports = {
-  title: () =>
+  title: (welcomeString) =>
     console.log(`${
       chalk.yellow(
-        figlet.textSync(' Welcome to \n AirConsole', {
+        figlet.textSync(`${welcomeString}`, {
           horizontalLayout: 'default',
           width: 70,
         })
