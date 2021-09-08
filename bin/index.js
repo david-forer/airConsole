@@ -8,3 +8,5 @@ clear();
 header.title('airConsole');
 
 menu.menuOptions();
+
+// keep clean
